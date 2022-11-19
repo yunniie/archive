@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#fff;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+header nav ul li{
+    list-style: none;
+    float:left;
+    padding: 10px 20px;
+    color:black;
+}
+header nav ul li:hover{
+    color: rgb(224,53,110);
+    border-bottom: 2px solid black;
+
+}
+header img{
+    width: 100px;
+    cursor:pointer;
+}
+header button{
+    border:0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(224,53,110);
+    color:#fff;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+.picture{
+    position: relative;
+    margin: 0 auto;
+}
+.noiDung {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%; 
+    box-sizing:border-box;
+    padding: 20px;
+}
+.text {
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.icon{
+    text-align: center;
+    height: auto;
+    width: 100px;
+  }
+.content{
+    width: 1200px;
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 10px;
+}
+.item img{
+    width : 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#wrapper{
+    max-width: 1170px;
+    margin:0px auto;
+}
+h3{
+    font-size: 18px;
+    color:black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #778899;
+    display:inline-block;
+    font-weight: 600;
+}
+.headline{
+    text-align: center;
+    margin: 40px 0px;
+}
+ul.products{
+    list-style: none;
+    display:flex;
+    justify-content:space-between;
+}
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+ul.products li .product-top{
+    position:relative;
+    overflow: hidden;
+}
+ul.products li .product-top .product-thumb img{
+    display:block;
+}
+ul.products li .product-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    background-color: #FFB6C1;
+    color:#f1f1f1;
+    padding: 10px 0px;
+    position:absolute;
+    bottom: -36px;
+    width: 100%;
+    transition:0.25s ease-in-out;
+}
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+}
+ul.products li .product-info a{
+    display:block;
+    text-decoration: none;
+}
+ul.products li .product-info a.product-cat{
+    font-size: 11px;
+    text-transform: uppercase;
+    color:#778899;
+    padding: 3px 0px;
+
+}
+ul.products li .product-info a.product-name{
+    color:#F08080;
+    padding: 3px 0px;
+}
+ul.products li .product-info a.product-price{
+    color: black;
+    padding: 2px 0px;
+    font-weight: 600;
+
+}
+footer{
+    background-color: #FFB6C1;
+    height: auto;
+    width: 100%;
+   font-family: "Open Sans";
+   padding-top: 40px;
+   color:#fff;
+}
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.socials li{
+    margin: 0px 10px;
+}
+.socials a{
+    text-decoration: none;
+    color:#fff
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: color  .4s ease;
+}
+.social a:hover i{
+    color: aqua;
+
+}
+.footer-bottom{
+    background :#FFB6C1;
+    width:100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size:14px;
+    word-spacing: 2px;
+    text-transform:capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+
+
